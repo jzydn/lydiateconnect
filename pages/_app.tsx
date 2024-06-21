@@ -72,7 +72,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 	return (
 		<RecoilRoot>
 			<Head>
-				<title>Tovy</title>
+				<title>LYDIATE Connect</title>
 			</Head>
 			<RecoilNexus />
 			{!loading && (
