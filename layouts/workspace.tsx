@@ -23,7 +23,7 @@ const workspace: LayoutProps = ({ children }) => {
 
 	const useTheme = (groupTheme: string) => {
 		const themes: any = {
-			"bg-[#2196f3]": "#2196f3",
+			"bg-[#2196f3]": "#7a3dac",
 			"bg-blue-500": colors.blue[500],
 			"bg-red-500": colors.red[500],
 			"bg-red-700": colors.red[700],
@@ -82,7 +82,7 @@ const workspace: LayoutProps = ({ children }) => {
 	}, []);
 
 	useEffect(() => {
-		const theme = useTheme(workspace.groupTheme || 'bg-[#2196f3]')
+		const theme = useTheme(workspace.groupTheme || 'bg-[#7a3dac]')
 		document.documentElement.style.setProperty('--group-theme', theme);
 	}, [workspace.groupTheme]);
 
